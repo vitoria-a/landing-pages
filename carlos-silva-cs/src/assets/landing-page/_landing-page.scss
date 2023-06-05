@@ -1,15 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400&display=swap');
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.landing-page {
+  margin: 1.5rem;
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+    }
+  }
 
-  img {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+    
+    .neon-white {
+      padding: 15px 20px;
+      color: white;
+      font-family: 'Roboto Flex', sans-serif;
+      font-size: 300;
+      text-decoration: none;
+      transition: 0.4s;
+      overflow: hidden;
+      box-shadow: 0 0 5px white, 0 0 20px white, 0 0 10px white;
+      border-radius:50px;
+
+      &:active {
+        background: white;
+        color: #2C2C2C;
+        box-shadow: 0 0 5px white, 0 0 20px white, 0 0 10px white;
+      }
+    }
   }
 }
 
