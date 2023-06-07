@@ -20,6 +20,10 @@
           👟 CS Shoes - Tênis de qualidade você encontra aqui
         </a>
     </main>
+
+    <footer class="footer">
+      <span> Powered by <a href="https://www.instagram.com/vitorialves_solutions/"> @vitorialves_solutions </a> </span>
+    </footer>
   </div>
 </template>
 
